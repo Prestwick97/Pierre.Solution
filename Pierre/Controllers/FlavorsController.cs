@@ -31,9 +31,10 @@ namespace Pierre.Controllers
       return View(userFlavors);
     }
 
-    public ActionResult Create()
+
+     public ActionResult Create()
     {
-      ViewBag.TreatId = new SelectList(_db.Treats, "TreatId", "Name");
+      ViewBag.TreatId = new SelectList(_db.Treats, "TreatId", "TreatName");
       // how we are able to use the drop down list in create view
       return View();
     }

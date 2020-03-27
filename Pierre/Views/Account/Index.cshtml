@@ -3,13 +3,15 @@
 }
 @using System.Security.Claims
 
-<h2>Authentication with Identity</h2>
+<h2>Authentication Page</h2>
 <hr />
 @if (User.Identity.IsAuthenticated)
 {
   <p>Hello @User.Identity.Name!</p>
   @using (Html.BeginForm("LogOff", "Account"))
     {
+      <p>@Html.ActionLink("See all treats", "Index", "Treats")</p>
+      <p>@Html.ActionLink("See all flavors", "Index", "Flavors")</p>
       <input type="submit" class="btn btn-default" value="Log out" />
     }
 }

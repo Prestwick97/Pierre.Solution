@@ -5,7 +5,7 @@
 @using Pierre.Models;
 @model IEnumerable<Pierre.Models.Flavor>;
 
-<h1>Flavors for @User.Identity.Name</h1>
+<h1>Flavors</h1>
 
 @if (@Model.Any())
 {
@@ -21,6 +21,6 @@ else
   <h3>No flavors have been added yet!</h3>
 }
 
-<p>@Html.ActionLink("Add new flavor", "Create")</p>
+<p>@Html.ActionLink("Add new flavor", "Create", "Flavors")</p>
 
 <p>@Html.ActionLink("Home", "Index", "Home")</p>
