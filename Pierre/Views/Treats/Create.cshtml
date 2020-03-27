@@ -1,0 +1,38 @@
+
+ @{
+  Layout = "_Layout";
+}
+
+@model Pierre.Models.Treat
+
+<h4>Add a new treat</h4>
+@using (Html.BeginForm())
+{
+    @Html.LabelFor(model => model.TreatName)
+    @Html.TextBoxFor(model => model.TreatName)
+    <input type="submit" value="Add new treat" />
+}
+<p>@Html.ActionLink("Show all treats", "Index")</p>
+
+
+
+
+@* @{
+  Layout = "_Layout";
+}
+
+@model Pierre.Models.Item
+
+<h4>Add a new treat</h4>
+
+@using (Html.BeginForm())
+{
+    @Html.LabelFor(model => model.Name)
+    @Html.TextBoxFor(model => model.Name)
+
+    @Html.Label("Select flavor")
+    @Html.DropDownList("FlavorId")
+
+    <input type="submit" value="Add new treat" class="btn btn-default" />
+}
+<p>@Html.ActionLink("Show all treats", "Index")</p> *@
