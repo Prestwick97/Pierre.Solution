@@ -1,0 +1,24 @@
+@{
+  Layout = "_Layout";
+}
+
+@model Pierre.Models.Flavor
+
+<h2>Edit</h2>
+
+<h4>Edit this dish: @Html.DisplayFor(model => model.FlavorName)</h4>
+
+@using (Html.BeginForm())
+{
+    @Html.HiddenFor(model => model.FlavorId)
+
+    @Html.LabelFor(model => model.FlavorName)
+    @Html.EditorFor(model => model.FlavorName)
+
+    @Html.Label("Select treat")
+    @Html.DropDownList("TreatId")
+
+    <input type="submit" value="Save" />
+}
+
+<p>@Html.ActionLink("Back to list", "Index")</p>
