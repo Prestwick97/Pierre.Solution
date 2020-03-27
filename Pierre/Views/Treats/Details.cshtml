@@ -1,0 +1,24 @@
+@{
+  Layout = "_Layout";
+}
+
+@model Pierre.Models.Treat;
+
+<h2>Treat Details</h2>
+<hr />
+<h3>@Html.DisplayNameFor(model => model.TreatName): @Html.DisplayFor(model => model.TreatName)</h3>
+
+@if(@Model.Flavors.Count == 0)
+{
+  <p>There are no treats with this flavor.</p>
+}
+else
+{
+  <h4>Flavors of this treat:</h4>
+  <ul>
+  @foreach(var join in Model.Flavors)
+  {
+    <li>@join.Flavor.FlavorName</li>
+  }
+  </ul>
+}
