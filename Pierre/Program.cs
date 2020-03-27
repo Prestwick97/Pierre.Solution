@@ -12,7 +12,7 @@ namespace Pierre
         .UseContentRoot(Directory.GetCurrentDirectory())
         .UseIISIntegration()
         .UseStartup<Startup>()
-        .Build();s
+        .Build();
 
       host.Run();
     }
