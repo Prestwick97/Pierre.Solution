@@ -1,6 +1,6 @@
 # _Pierre's Bakery_
 
-#### _ A web application that allows you to add, edit, and remove treats and flavors. 04/02/2020_
+#### _ A web application that allows you to add, edit, and remove treats and flavors. 04/03/2020_
 
 #### By _**Patrick Delaney**_
 
@@ -35,7 +35,7 @@ _Using this web application, the user may view, create, edit, or delete differen
 
 ## Known Bugs
 
-_At this point in time, there is no view for adding a treat to a pastry._
+_There are no bugs at this point in time._
 
 ## Support and contact details
 
@@ -46,7 +46,6 @@ _If you have any questions, suggestions, comments, or concerns, feel free to con
 * _C#_
 * _json_
 * _MVC_
-* _Postman_
 * _VScode_
 * _MySQL_
 * _MySQL Workbench_
