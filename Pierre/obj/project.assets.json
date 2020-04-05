@@ -12156,11 +12156,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/patrickdelaney/Desktop/Pierre.solution/Pierre/Pierre.csproj",
+      "projectUniqueName": "/Users/patrickdelaney/Pierre.Solution/Pierre/Pierre.csproj",
       "projectName": "Pierre",
-      "projectPath": "/Users/patrickdelaney/Desktop/Pierre.solution/Pierre/Pierre.csproj",
+      "projectPath": "/Users/patrickdelaney/Pierre.Solution/Pierre/Pierre.csproj",
       "packagesPath": "/Users/patrickdelaney/.nuget/packages/",
-      "outputPath": "/Users/patrickdelaney/Desktop/Pierre.solution/Pierre/obj/",
+      "outputPath": "/Users/patrickdelaney/Pierre.Solution/Pierre/obj/",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
