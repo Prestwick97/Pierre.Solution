@@ -72,3 +72,4 @@
 /Users/patrickdelaney/Pierre.Solution/Pierre/obj/Debug/netcoreapp2.2/Pierre.dll
 /Users/patrickdelaney/Pierre.Solution/Pierre/obj/Debug/netcoreapp2.2/Pierre.pdb
 /Users/patrickdelaney/Pierre.Solution/Pierre/obj/Debug/netcoreapp2.2/Pierre.csproj.CopyComplete
+/Users/patrickdelaney/Pierre.Solution/Pierre/obj/Debug/netcoreapp2.2/Razor/Views/Flavors/AddTreat.g.cshtml.cs

@@ -2971,6 +2971,11 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "/Users/patrickdelaney/Pierre.Solution/Pierre/Views/Flavors/AddTreat.cshtml",
+      "TargetPath": "Views\\Flavors\\AddTreat.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "/Users/patrickdelaney/Pierre.Solution/Pierre/Views/Treats/Edit.cshtml",
       "TargetPath": "Views\\Treats\\Edit.cshtml",
       "FileKind": "mvc"
